@@ -1,1 +1,0 @@
-body{--bg-color:#fff;--fg-color:#000;background-color:var(--bg-color);color:var(--fg-color);margin:0;padding:10px 50px}ul{list-style:none}a,li{text-decoration:none}a{color:var(--fg-color)}a.active{border-bottom:1px solid green}
