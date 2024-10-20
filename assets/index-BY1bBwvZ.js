@@ -132,7 +132,7 @@ Error generating stack: `+i.message+`
   display: block;
   height: auto;
   border-radius: 10px;
-  max-width: 550px;
+  max-width: 400px;
 `,p0=W`
   display: grid;
   gap: 24px;
@@ -162,7 +162,6 @@ Error generating stack: `+i.message+`
   gap: 10px;
   border-bottom: 1px solid var(--fg-color);
   padding: 8px;
-  border-radius: 4px;
 `,k0=W`
   display: flex;
   gap: 20px;
