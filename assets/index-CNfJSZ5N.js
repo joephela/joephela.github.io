@@ -273,6 +273,7 @@ object-assign
   max-width: 320px;
   font-size: 1.2em;
   font-weight: bold;
+  font-variant: petite-caps;
 `,I1=M`
   background: var(--bg-footer-header);
   margin-bottom: 40px;
