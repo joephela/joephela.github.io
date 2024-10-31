@@ -472,7 +472,7 @@ object-assign
     top: 0;
     z-index: var(--z-index-popover);
     background: var(--bg-color);
-    width: 100vw;
+    width: 100%;
 
     @media only screen and (max-width: ${Ht}) {
       && {
