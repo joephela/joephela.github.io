@@ -281,7 +281,7 @@ object-assign
   left: 0;
   top: 0;
   overflow: hidden;
-  z-index: 10;
+  z-index: var(--z-index-modal);
   background: var(--bg-color);
   display: flex;
   align-items: center;
@@ -355,6 +355,9 @@ object-assign
   margin-inline: var(--layout-padding);
   min-height: calc(100vh - ${ow} - ${lw});
 `,sw=V`
+  --z-index-modal: 15;
+  --z-index-popover: 10;
+
   body {
     ${l3}
     margin: 0;
@@ -467,7 +470,7 @@ object-assign
     position: sticky;
     flex-wrap: wrap;
     top: 0;
-    z-index: 10;
+    z-index: var(--z-index-popover);
     background: var(--bg-color);
     width: 100vw;
 
