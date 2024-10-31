@@ -86,6 +86,8 @@ Error generating stack: `+o.message+`
   --bg-color: var(--color-white);
   --fg-color: var(--color-black);
   --bg-footer-header: #d9dee1;
+  --z-index-modal: 15;
+  --z-index-popover: 10;
 
   a {
     color: blue;
@@ -355,9 +357,6 @@ object-assign
   margin-inline: var(--layout-padding);
   min-height: calc(100vh - ${ow} - ${lw});
 `,sw=V`
-  --z-index-modal: 15;
-  --z-index-popover: 10;
-
   body {
     ${l3}
     margin: 0;
