@@ -426,9 +426,12 @@ object-assign
   display: flex;
   gap: 16px;
   width: 90%;
-  border: 1px solid;
-  border-radius: 4px;
+  border-bottom: 1px solid;
   padding: 16px;
+
+  &&:last-child {
+    border-bottom: none;
+  }
 
   h3 {
     padding: 0;
