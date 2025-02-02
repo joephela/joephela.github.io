@@ -130,12 +130,12 @@ Error generating stack: `+o.message+`
 
   height: 200px;
   width: 200px;
-  clip-path: xywh(40px 5px 79% 79% round 25% 25%);
   transition: clip-path 1s;
   animation: path 15s ease infinite;
 
   @media (prefers-reduced-motion) {
     animation: unset;
+    border-radius: 20px;
   }
 `,k3=H`
   @media only screen and (max-width: ${bt}) {
