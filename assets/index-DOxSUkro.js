@@ -367,8 +367,8 @@ object-assign
     }
   }
 `,lw=H`
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   margin-bottom: -6px;
 `,aw=H`
   display: flex;
