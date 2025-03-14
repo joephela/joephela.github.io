@@ -235,6 +235,11 @@ object-assign
   justify-content: center;
   border: 1px solid grey;
   border-radius: 5px;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+    border: none;
+  }
 `;function L5(){return I("div",{css:O5,children:[I("div",{css:du,children:[f("div",{css:hu,children:f(cu,{src:"/portals.jpg",alt:"Portals application"})}),I("div",{css:fu,children:[f("h4",{children:"Portals"}),f("p",{children:"Portals is a product that provides a way to create and manage multiple websites from a single interface. It is a multi-tenant, SaaS product that allows users to create and manage websites to show off their dam assets in various ways. I worked on the team that was responsible for the front end of the product and developing enhancements and new features."})]})]}),I("div",{css:du,children:[f("div",{css:hu,children:f(cu,{src:"/crop_download.jpg",alt:"Crop & download application"})}),I("div",{css:fu,children:[f("h4",{children:"Crop & Download"}),f("p",{children:"A product that allows users to crop and download assets from a DAM site. This was setup as a micro frontend that is shared across the product suite."})]})]}),I("div",{css:du,children:[f("div",{css:hu,children:f(cu,{src:"/search.jpg",alt:"Search application"})}),I("div",{css:fu,children:[f("h4",{children:"Search"}),f("p",{children:"Search is a product that provides a way to search for assets across a DAM site. I worked on the team that was responsible for the front end of the product developing enhancements and new features."})]})]})]})}const tp=j`
   font-weight: bold;
 `,Zl=j`
