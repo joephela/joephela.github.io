@@ -154,6 +154,7 @@ Error generating stack: `+o.message+`
   border-left: 4px solid var(--bg-accent);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease-in-out;
+  border: 1px solid var(--border-color);
 
   &:hover {
     transform: translateY(-2px);
@@ -255,8 +256,8 @@ object-assign
     gap: 20px;
   }
 `,rp=D`
-  background-color: var(--bg-footer-header);
   border-radius: 12px;
+  border: 1px solid var(--border-color);
   overflow: hidden;
   transition:
     transform 0.3s ease,
@@ -286,6 +287,7 @@ object-assign
   }
 `,op=D`
   padding: 20px 24px;
+  background-color: rgba(var(--bg-accent-rgb, 72, 102, 102), 0.08);
 `,Jl=D`
   font-size: 1.2rem;
   color: var(--fg-color);
@@ -304,7 +306,6 @@ object-assign
     font-style: italic;
     color: var(--hover-color);
     font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.1);
     padding: 4px 12px;
     border-radius: 16px;
   }
@@ -316,13 +317,10 @@ object-assign
     position: relative;
   }
 `,A5=D`
-  background: linear-gradient(
-    135deg,
-    var(--bg-footer-header) 0%,
-    var(--bg-color) 100%
-  );
+  background-color: rgba(var(--bg-accent-rgb, 72, 102, 102), 0.08);
   padding: 30px;
   border-radius: 16px;
+  border: 1px solid var(--border-color);
   margin: 32px 0;
   position: relative;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
