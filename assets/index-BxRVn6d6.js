@@ -596,7 +596,7 @@ object-assign
     margin: 0;
     padding: 0;
   }
-`;function Aw(){return M("footer",{css:Lw,children:[M("div",{css:Dw,children:[f("a",{href:"https://github.com/joephela/2024-github-base",rel:"noreferrer",target:"_blank",children:"Check out the code!"}),f("p",{children:"Copyright © 2024 Joseph Phelan."})]}),f(Mw,{})]})}const Iw="/assets/moving-B_q13TNX.jpg";function Nw(){return M("div",{css:{margin:"24px"},children:[f("h1",{children:"This site has moved!"}),M("p",{children:["Check out the new location ",f("a",{href:"https://www.joephela.com",children:"here"}),"."]}),f("img",{src:Iw,alt:"moving trucks"})]})}const Fw="/assets/me-CP8IRpfj.jpeg",zw=A`
+`;function Aw(){return M("footer",{css:Lw,children:[M("div",{css:Dw,children:[f("a",{href:"https://github.com/joephela/2024-github-base",rel:"noreferrer",target:"_blank",children:"Check out the code!"}),f("p",{children:"Copyright © 2025 Joseph Phelan."})]}),f(Mw,{})]})}const Iw="/assets/moving-B_q13TNX.jpg";function Nw(){return M("div",{css:{margin:"24px"},children:[f("h1",{children:"This site has moved!"}),M("p",{children:["Check out the new location ",f("a",{href:"https://www.joephela.com",children:"here"}),"."]}),f("img",{src:Iw,alt:"moving trucks"})]})}const Fw="/assets/me-CP8IRpfj.jpeg",zw=A`
   @keyframes path {
     0% {
       clip-path: xywh(40px 5px 79% 79% round 25% 5%);
