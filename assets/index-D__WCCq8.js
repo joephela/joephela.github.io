@@ -580,7 +580,7 @@ object-assign
   display: flex;
   gap: 10px;
   padding: 10px;
-`,g9="https://linkedin.com/in/joseph-phelan-3a871625",b9="https://github.com/joephela";function S9(){return z("div",{css:y9,children:[d(cp,{as:"a","aria-label":"View Joe Phelan's Github",target:"_blank",href:b9,children:d(m9,{fill:"var(--fg-color)"})}),d(cp,{as:"a","aria-label":"View Joe Phelan's Linkedin",href:g9,target:"_blank",children:d(v9,{fill:"var(--fg-color)"})})]})}const x9=N`
+`,g9="https://linkedin.com/in/joephela",b9="https://github.com/joephela";function S9(){return z("div",{css:y9,children:[d(cp,{as:"a","aria-label":"View Joe Phelan's Github",target:"_blank",href:b9,children:d(m9,{fill:"var(--fg-color)"})}),d(cp,{as:"a","aria-label":"View Joe Phelan's Linkedin",href:g9,target:"_blank",children:d(v9,{fill:"var(--fg-color)"})})]})}const x9=N`
   background: var(--bg-footer-header);
   display: flex;
   justify-content: space-between;
